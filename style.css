@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 ul {
   list-style: none;
 }
@@ -12,7 +16,7 @@ ul {
 ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .nav-container {
@@ -37,7 +41,7 @@ ul li a {
 .material-icons {
   padding: 1rem;
   margin-left: 0.5rem;
-  color: #333;
+  color: #6c6f72;
 
   height: 40px;
   width: 40px;
@@ -68,10 +72,24 @@ ul li a {
   align-items: center;
   flex-direction: column;
 }
+
+.logo-img {
+  margin-top: -7rem;
+}
 .search {
   display: block;
-  margin: 2rem;
-  padding: 0.9rem 12rem;
-  border: 1px gray solid;
+  margin: 1.5rem 0 2rem 0;
+  padding: 0.9rem 12.5rem;
+  border: 1px lightgray solid;
   border-radius: 20px;
+}
+
+.cta {
+  display: inline;
+  font-size: 1rem;
+  border: 0;
+  background: #f8f9fa95;
+  padding: 0.5rem 1rem;
+  margin-left: 50px;
+  color: #6c6f72;
 }
